@@ -14,9 +14,8 @@ int main() {
     for(const auto i : xi)
         cout << lagrange(xi,yi,i)<<" ";
     cout << endl;
-
-
-
+    string L;
+    
     return 0;
 }
 double lagrange(array<int,n> x, array<int,n> y, double _x)
