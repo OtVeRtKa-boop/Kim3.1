@@ -15,7 +15,10 @@ int main() {
         cout << lagrange(xi,yi,i)<<" ";
     cout << endl;
     string L;
-    
+    for (int j = 0; j < n; ++j) {
+        L+= to_string(yi[j]*lagrange(xi,yi,j)) + '\t';
+    }
+    cout << L;
     return 0;
 }
 double lagrange(array<int,n> x, array<int,n> y, double _x)
