@@ -1,0 +1,3 @@
+D:/git/Kim3.1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/git/Kim3.1/cmake-build-debug/CMakeFiles/Kim3_1.dir
+D:/git/Kim3.1/cmake-build-debug/CMakeFiles/edit_cache.dir
